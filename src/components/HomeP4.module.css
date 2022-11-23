@@ -1,0 +1,32 @@
+.p4box {
+  position: relative;
+  padding: 5% 10%;
+  border-bottom: 1px solid #e4ebf3;
+  background-color: #ace0f5;
+  background-clip: border-box;
+}
+
+.p4Header {
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  gap: 28px;
+  margin-top: 4%;
+}
+
+.galleryParts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+}
+
+.galleryImage {
+  width: 300px;
+}
+
+.learnMore {
+  text-align: center;
+}

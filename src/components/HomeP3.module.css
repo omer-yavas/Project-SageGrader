@@ -1,0 +1,19 @@
+.p3box {
+  display: flex;
+  padding: 10%;
+  justify-content: space-between;
+}
+
+.featuresBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.featuresTitle {
+  margin-bottom: 8px;
+  font-size: 60px;
+  line-height: 48px;
+  font-weight: 600;
+}
