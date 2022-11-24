@@ -3,7 +3,7 @@ import classes from './HomeP2.module.css';
 const HomeP2 = () => {
   return (
     <div className={classes.p2box}>
-      <div>
+      <div className={classes.p2left}>
         <h2>Supported educators Satisfied students</h2>
         <p>
           SageGrader gives you the flexibility to set question types, define
@@ -17,14 +17,13 @@ const HomeP2 = () => {
           thousands.
         </p>
       </div>
-      <div>
+      <div className={classes.p2right}>
         <div className={classes.secondDivParts}>
           <img
             src="https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/632090d2b1e2f10030775e8c_PythonAndR.png"
             loading="lazy"
             width="80"
             alt=""
-            class="image-2"
           />
           <p>
             SageGrader currently supports both <strong>Python</strong> and{' '}
@@ -36,6 +35,7 @@ const HomeP2 = () => {
             src="https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63417056e3265c3ad135e1e9_ConnectCanvas-Final.png"
             loading="lazy"
             width="82"
+            height="82"
             srcset="https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63417056e3265c3ad135e1e9_ConnectCanvas-Final-p-500.png 500w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63417056e3265c3ad135e1e9_ConnectCanvas-Final-p-800.png 800w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63417056e3265c3ad135e1e9_ConnectCanvas-Final.png 1008w"
             sizes="82px"
             alt=""
@@ -52,6 +52,7 @@ const HomeP2 = () => {
             src="https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/634171dcebf97b210b1013cd_AutoGrader-Final.png"
             loading="lazy"
             width="80"
+            height="80"
             srcset="https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/634171dcebf97b210b1013cd_AutoGrader-Final-p-500.png 500w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/634171dcebf97b210b1013cd_AutoGrader-Final-p-800.png 800w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/634171dcebf97b210b1013cd_AutoGrader-Final.png 921w"
             sizes="80px"
             alt=""

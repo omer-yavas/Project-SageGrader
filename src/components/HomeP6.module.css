@@ -1,0 +1,23 @@
+.p6box {
+  position: relative;
+  padding: 80px 30px;
+  border-bottom: 1px solid #e4ebf3;
+  background-color: #ace0f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.p6box h2 {
+  text-align: center;
+}
+
+.p6container {
+  width: 100%;
+  max-width: 940px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.image {
+  max-width: 67%;
+}

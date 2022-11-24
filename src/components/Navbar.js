@@ -1,8 +1,9 @@
 import { Fragment } from 'react';
+import classes from './Navbar.module.css';
 
 const Navbar = () => {
   return (
-    <Fragment>
+    <div className={classes.navbarBox}>
       <div>
         <img
           sizes="(max-width: 479px) 63vw, (max-width: 767px) 300px, (max-width: 991px) 39vw, (max-width: 1439px) 30vw, 300px"
@@ -15,18 +16,16 @@ const Navbar = () => {
       </div>
       <div>
         <nav>
-          <ul>
-            <li>Home</li>
-            <li>Features</li>
-            <li>About us</li>
-            <li>Contact us</li>
-          </ul>
+          <div>Home</div>
+          <div>Features</div>
+          <div>About us</div>
+          <div>Contact us</div>
         </nav>
       </div>
       <div>
-        <button>USER LOGIN</button>
+        <button className={classes.navButton}>USER LOGIN</button>
       </div>
-    </Fragment>
+    </div>
   );
 };
 

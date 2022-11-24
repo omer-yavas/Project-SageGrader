@@ -1,9 +1,9 @@
-import { Fragment } from 'react';
+import classes from './Footer.module.css';
 
 const Footer = () => {
   return (
-    <Fragment>
-      <div>
+    <div className={classes.footerbox}>
+      <div className={classes.footerupperpart}>
         <div>
           <img
             src="https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/6340f11a6a18b6834bb49612_Logo9.png"
@@ -14,7 +14,7 @@ const Footer = () => {
             alt="Company logo"
           />
         </div>
-        <div>
+        <div className={classes.footerupperright}>
           <div>Home Page</div>
           <div>Features</div>
           <div>Resources</div>
@@ -23,12 +23,13 @@ const Footer = () => {
           <div>Privacy Policy</div>
         </div>
       </div>
-      <div>
+      <div className={classes.footermiddleline}></div>
+      <div className={classes.footerdownpart}>
         Copyright © 2022 SageGrader | ABN 47 661 933 624 | Phone number: +614
         9708 6140<br></br>SageGrader is a Trademark of HPM Analytics Pty Ltd, a
         Melbourne-based educational technology company
       </div>
-    </Fragment>
+    </div>
   );
 };
 

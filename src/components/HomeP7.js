@@ -1,9 +1,11 @@
+import classes from './HomeP7.module.css';
+
 const HomeP7 = () => {
   return (
-    <div>
-      <h2>What SageGrader students have to say</h2>
-      <div>
-        <div>
+    <div className={classes.p7box}>
+      <h2 className={classes.headerp7}>What SageGrader students have to say</h2>
+      <div className={classes.commentBox}>
+        <div className={classes.commentBlock}>
           <p>
             <em>
               "There are a few things about SageGrader that I like. The first is
@@ -17,7 +19,7 @@ const HomeP7 = () => {
             </em>
           </p>
         </div>
-        <div>
+        <div className={classes.commentBlock}>
           <p>
             <em>
               "The past courses didn't allow us to see and go through past
@@ -28,7 +30,7 @@ const HomeP7 = () => {
             </em>
           </p>
         </div>
-        <div>
+        <div className={classes.commentBlock}>
           <p>
             <em>
               "I think SageGrader is an efficient and innovative tool used to
@@ -39,7 +41,7 @@ const HomeP7 = () => {
             </em>
           </p>
         </div>
-        <div>
+        <div className={classes.commentBlock}>
           <p>
             <em>
               "Compared to similar courses, Sage Grader is better as marks come

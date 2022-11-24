@@ -1,0 +1,29 @@
+.footerbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footerupperpart {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+  padding: 3rem 9rem;
+}
+
+.footerupperright {
+  display: flex;
+  gap: 2rem;
+}
+.footermiddleline {
+  width: 90%;
+  height: 1px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  background-color: #e4ebf3;
+  justify-self: center;
+}
+.footerdownpart {
+  text-align: center;
+  margin-bottom: 2rem;
+}

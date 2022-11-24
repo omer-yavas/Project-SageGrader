@@ -1,6 +1,8 @@
+import classes from './HomeP5.module.css';
+
 const HomeP5 = () => {
   return (
-    <div>
+    <div className={classes.p5box}>
       <div>
         <img
           src="https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63417dadaf18ec8d2e921900_InsightReport.png"

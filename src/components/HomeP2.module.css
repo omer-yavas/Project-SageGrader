@@ -1,8 +1,18 @@
 .p2box {
   display: flex;
-  padding: 10%;
+  gap: 4rem;
+  padding: 6% 9%;
+  border-bottom: 1px solid #e4ebf3;
+}
+.p2left {
+  flex-shrink: 1;
+}
+.p2right {
+  flex-shrink: 0.9;
 }
 
 .secondDivParts {
   display: flex;
+  gap: 4rem;
+  align-items: center;
 }
