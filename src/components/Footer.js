@@ -1,4 +1,5 @@
 import classes from './Footer.module.css';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -15,12 +16,24 @@ const Footer = () => {
           />
         </div>
         <div className={classes.footerupperright}>
-          <div>Home Page</div>
-          <div>Features</div>
-          <div>Resources</div>
-          <div>About us</div>
-          <div>Contact us</div>
-          <div>Privacy Policy</div>
+          <div>
+            <Link to="/home">Home Page</Link>
+          </div>
+          <div>
+            <Link to="/featurepage">Features</Link>
+          </div>
+          <div>
+            <Link to="/resources">Resources</Link>
+          </div>
+          <div>
+            <Link to="/aboutus">About us</Link>
+          </div>
+          <div>
+            <Link to="/contact">Contact us</Link>
+          </div>
+          <div>
+            <Link to="privacy">Privacy Policy</Link>
+          </div>
         </div>
       </div>
       <div className={classes.footermiddleline}></div>

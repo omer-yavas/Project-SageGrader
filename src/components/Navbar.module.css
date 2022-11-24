@@ -23,3 +23,15 @@
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+
+.navbarBox a {
+  text-decoration: none;
+}
+
+.navbarBox a:hover,
+.navbarBox a:active,
+.navbarBox a.active {
+  color: #95bcf0;
+  padding-bottom: 0.25rem;
+  border-bottom: 4px solid #95bcf0;
+}

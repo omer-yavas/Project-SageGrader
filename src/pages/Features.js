@@ -1,10 +1,9 @@
-import { Fragment } from 'react';
-
+import classes from './Features.module.css';
 const Features = () => {
   return (
-    <Fragment>
+    <div className={classes.featuresbox}>
       <h1>SageGrader Features</h1>
-      <div>
+      <div className={classes.featurestext}>
         <h3>Designed by Educators for Educators</h3>
         <p>
           <strong>SageGrader (SG)</strong> is a secure, cloud-based assessment
@@ -18,15 +17,16 @@ const Features = () => {
           expression would be insufficient). In addition, SG marking & feedback
           criteria are case-, space-, and quote-insensitive. This feature
           greatly simplifies the amount of work for defining marking and
-          feedback criteria. <br></br>Please note that we use the terms
-          "marking" and "grading" interchangeably throughout this page as well
-          as within SG. <br></br>SG allows for hybrid marking between automated
-          and manual marking for all question types. That is, if required, you
-          can always override any automated marking results for any student
-          submission before publishing these results.
+          feedback criteria. <br></br>
+          <br></br>Please note that we use the terms "marking" and "grading"
+          interchangeably throughout this page as well as within SG. <br></br>
+          <br></br>SG allows for hybrid marking between automated and manual
+          marking for all question types. That is, if required, you can always
+          override any automated marking results for any student submission
+          before publishing these results.
         </p>
       </div>
-      <div>
+      <div className={classes.featurestext}>
         <h3>Key Principles</h3>
         <p>SageGrader is built upon three key principles:</p>
         <p>
@@ -77,7 +77,7 @@ const Features = () => {
           future assessments.
         </p>
       </div>
-    </Fragment>
+    </div>
   );
 };
 

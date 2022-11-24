@@ -4,7 +4,9 @@ const HomeP2 = () => {
   return (
     <div className={classes.p2box}>
       <div className={classes.p2left}>
-        <h2>Supported educators Satisfied students</h2>
+        <h2>
+          Supported educators<br></br> Satisfied students
+        </h2>
         <p>
           SageGrader gives you the flexibility to set question types, define
           multiple marking criteria, provide custom feedback, and grade

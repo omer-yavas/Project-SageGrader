@@ -1,7 +1,9 @@
+import classes from './contactus.module.css';
+
 const ContactUs = () => {
   return (
-    <div>
-      <h3>Get in touch with us</h3>
+    <div className={classes.contactbox}>
+      <h2>Get in touch with us</h2>
       <p>info@sagegrader.com</p>
     </div>
   );

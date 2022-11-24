@@ -1,9 +1,9 @@
-import { Fragment } from 'react';
+import classes from './Aboutus.module.css';
 
 const AboutUs = () => {
   return (
-    <Fragment>
-      <div>
+    <div className={classes.aboutusbox}>
+      <div className={classes.upperpart}>
         <h2>About us</h2>
         <p>
           As educators, we are mindful of the fact that it can be a challenging
@@ -22,8 +22,8 @@ const AboutUs = () => {
           creating a better learning experience for your students.
         </p>
       </div>
-      <div>
-        <div>
+      <div className={classes.personalcards}>
+        <div className={classes.card}>
           <img
             src="https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63567bc626328906466c4100_Founder.png"
             loading="lazy"
@@ -32,8 +32,8 @@ const AboutUs = () => {
             alt=""
             class="team-member-image-2"
           />
-          <div>Dr. David Akman</div>
-          <div>Co-founder</div>
+          <div className={classes.personandtitle}>Dr. David Akman</div>
+          <div className={classes.personandtitle}>Co-founder</div>
           <div>
             <a
               href="https://www.linkedin.com/in/dr-david-akman/"
@@ -76,7 +76,7 @@ const AboutUs = () => {
             instrumental is design and development of SageGrader.<br></br>
           </p>
         </div>
-        <div>
+        <div className={classes.card}>
           <img
             src="https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63567bc626328906466c4100_Founder.png"
             loading="lazy"
@@ -85,8 +85,8 @@ const AboutUs = () => {
             alt=""
             class="team-member-image-2"
           />
-          <div>Simon Pamuk</div>
-          <div>Co-founder</div>
+          <div className={classes.personandtitle}>Simon Pamuk</div>
+          <div className={classes.personandtitle}>Co-founder</div>
           <div>
             <a
               href="https://www.linkedin.com/in/simon-pamuk"
@@ -103,6 +103,7 @@ const AboutUs = () => {
             </a>
           </div>
           <p>
+            <br></br>
             Simon is a well-established technology educator with a successful
             track record of innovative teaching throughout his entire career.
             Simon worked at a wide range of schools, from grammar schools in UK
@@ -120,7 +121,7 @@ const AboutUs = () => {
           </p>
         </div>
       </div>
-    </Fragment>
+    </div>
   );
 };
 

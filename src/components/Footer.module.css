@@ -15,6 +15,9 @@
   display: flex;
   gap: 2rem;
 }
+.footerupperright a {
+  text-decoration: none;
+}
 .footermiddleline {
   width: 90%;
   height: 1px;

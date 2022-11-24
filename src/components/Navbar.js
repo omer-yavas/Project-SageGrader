@@ -1,4 +1,4 @@
-import { Fragment } from 'react';
+import { NavLink } from 'react-router-dom';
 import classes from './Navbar.module.css';
 
 const Navbar = () => {
@@ -16,10 +16,26 @@ const Navbar = () => {
       </div>
       <div>
         <nav>
-          <div>Home</div>
-          <div>Features</div>
-          <div>About us</div>
-          <div>Contact us</div>
+          <div>
+            <NavLink activeClassName={classes.active} to="/home">
+              Home
+            </NavLink>
+          </div>
+          <div>
+            <NavLink activeClassName={classes.active} to="/featurepage">
+              Features
+            </NavLink>
+          </div>
+          <div>
+            <NavLink activeClassName={classes.active} to="/aboutus">
+              About us
+            </NavLink>
+          </div>
+          <div>
+            <NavLink activeClassName={classes.active} to="/contact">
+              Contact us
+            </NavLink>
+          </div>
         </nav>
       </div>
       <div>

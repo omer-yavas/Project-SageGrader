@@ -1,0 +1,17 @@
+.featuresbox {
+  position: relative;
+  padding: 80px 30px;
+  border-bottom: 1px solid #e4ebf3;
+  background-color: #f5f7fa;
+}
+.featuresbox h1 {
+  text-align: center;
+}
+
+.featurestext {
+  padding-right: 10%;
+  padding-left: 10%;
+}
+.featurestext p {
+  text-align: justify;
+}
