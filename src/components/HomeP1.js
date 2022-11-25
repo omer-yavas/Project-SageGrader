@@ -1,11 +1,7 @@
 import React from 'react';
 import classes from './HomeP1.module.css';
-import { Redirect } from 'react-router-dom';
+import { Redirect, Link } from 'react-router-dom';
 const HomeP1 = () => {
-  const clickHandler = () => {
-    return <Redirect to="/home" />;
-  };
-
   return (
     <section className={classes.section}>
       <div className={classes.container}>
@@ -24,13 +20,9 @@ const HomeP1 = () => {
               for parallel auto-grading of assessments for significant time and
               cost savings in auto-marking tasks.
             </p>
-            <button
-              type="button"
-              onClick={clickHandler}
-              className={classes.buttonPrimary}
-            >
-              CONTACT US
-            </button>
+            <div className={classes.buttonPrimary}>
+              <Link to="/contact">CONTACT US</Link>
+            </div>
           </div>
           <div>
             <img

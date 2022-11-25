@@ -1,5 +1,7 @@
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import classes from './Navbar.module.css';
+import { IonIcon } from '@ionic/react';
+import { menuOutline } from 'ionicons/icons';
 
 const Navbar = () => {
   return (
@@ -14,7 +16,7 @@ const Navbar = () => {
           alt="Company logo"
         />
       </div>
-      <div>
+      <div className={classes.navMenu}>
         <nav>
           <div>
             <NavLink activeClassName={classes.active} to="/home">
@@ -37,9 +39,15 @@ const Navbar = () => {
             </NavLink>
           </div>
         </nav>
+        <div>
+          <IonIcon icon={menuOutline} />
+        </div>
       </div>
+
       <div>
-        <button className={classes.navButton}>USER LOGIN</button>
+        <Link className={classes.navButton} to="/landingpage">
+          USER LOGIN
+        </Link>
       </div>
     </div>
   );

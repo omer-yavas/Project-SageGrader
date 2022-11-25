@@ -1,28 +1,17 @@
-.navbarBox {
+.landingbox {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  padding-left: 45px;
-  padding-right: 45px;
+  column-gap: 8%;
 }
-.navbarBox nav {
+
+.formstyle {
   display: flex;
-  gap: 25px;
+  flex-direction: column;
+  margin-bottom: 3%;
 }
 
-.navbarBox a {
-  text-decoration: none;
-}
-
-.navMenu a:hover,
-.navMenu a:active,
-.navMenu a.active {
-  color: #95bcf0;
-  padding-bottom: 0.25rem;
-  border-bottom: 4px solid #95bcf0;
-}
-
-.navButton {
+.formbutton {
   padding: 12px 25px;
   border: 1px solid #0047ab;
   border-radius: 12px;

@@ -5,38 +5,49 @@ import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
 import Features from './pages/Features';
 import Home from './pages/Home';
+import LandingPage from './pages/LandingPage';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import Resources from './pages/Resources';
 
 function App() {
   return (
     <div>
-      <Navbar></Navbar>
       <Switch>
         <Route path="/" exact>
           <Redirect to="/home" />
         </Route>
         <Route path="/home">
+          <Navbar />
           <Home />
+          <Footer />
         </Route>
         <Route path="/featurepage">
+          <Navbar />
           <Features />
+          <Footer />
         </Route>
         <Route path="/aboutus">
-          <AboutUs />
+          <Navbar /> <AboutUs />
+          <Footer />
         </Route>
         <Route path="/contact">
-          <ContactUs />
+          <Navbar /> <ContactUs />
+          <Footer />
         </Route>
         <Route path="/privacy">
+          <Navbar />
           <PrivacyPolicy />
+          <Footer />
         </Route>
         <Route path="/resources">
+          <Navbar />
           <Resources />
+          <Footer />
+        </Route>
+        <Route path="/landingpage">
+          <LandingPage />
         </Route>
       </Switch>
-
-      <Footer></Footer>
     </div>
   );
 }
