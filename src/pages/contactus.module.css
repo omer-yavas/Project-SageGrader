@@ -1,4 +1,6 @@
 .contactbox {
+  width: 100vw;
+  height: auto;
   position: relative;
   padding: 80px 30px;
   border-bottom: 1px solid #e4ebf3;

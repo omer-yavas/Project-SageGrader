@@ -30,3 +30,16 @@
   text-align: center;
   margin-bottom: 2rem;
 }
+
+@media (max-width: 880px) {
+  .footerupperpart {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
+  .footerupperright {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+} ;

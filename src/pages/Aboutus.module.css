@@ -38,3 +38,18 @@
 .personalcards p {
   text-align: justify;
 }
+
+@media (max-width: 800px) {
+  .aboutusbox {
+    padding: 50px 15px;
+  }
+  .upperpart {
+    text-align: justify;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+  .personalcards {
+    flex-direction: column;
+    gap: 4%;
+  }
+}

@@ -43,7 +43,7 @@ const HomeP8 = () => {
             feedback, tend to minimise mark disputes."
           </em>
         </p>
-        <h3>Anders Yeo</h3>
+        <h3 className={classes.title}>Anders Yeo</h3>
         <div>
           Teaching assistant, Introduction to Analytics, RMIT University
         </div>
