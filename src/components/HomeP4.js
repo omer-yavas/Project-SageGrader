@@ -19,7 +19,6 @@ const HomeP4 = () => {
             srcset="https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/635fd0bcf5142726359e7ab1_Text-Question-p-500.png 500w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/635fd0bcf5142726359e7ab1_Text-Question-p-800.png 800w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/635fd0bcf5142726359e7ab1_Text-Question-p-1080.png 1080w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/635fd0bcf5142726359e7ab1_Text-Question.png 1118w"
             src="https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/635fd0bcf5142726359e7ab1_Text-Question.png"
             loading="lazy"
-            sizes="(max-width: 479px) 88vw, (max-width: 991px) 43vw, (max-width: 1439px) 29vw, 286.6625061035156px"
             alt=""
             className={classes.galleryImage}
           />
@@ -35,7 +34,6 @@ const HomeP4 = () => {
             srcset="https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/635fd0d4f085f9f94a1e931d_Numerical-Q-p-500.png 500w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/635fd0d4f085f9f94a1e931d_Numerical-Q-p-800.png 800w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/635fd0d4f085f9f94a1e931d_Numerical-Q-p-1080.png 1080w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/635fd0d4f085f9f94a1e931d_Numerical-Q.png 1090w"
             src="https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/635fd0d4f085f9f94a1e931d_Numerical-Q.png"
             loading="lazy"
-            sizes="(max-width: 479px) 88vw, (max-width: 991px) 43vw, (max-width: 1439px) 29vw, 286.66876220703125px"
             alt=""
             className={classes.galleryImage}
           />
@@ -44,10 +42,9 @@ const HomeP4 = () => {
             can clean students' answers before grading them!
           </p>
         </div>
-        <div className={classes.galleryParts}>
+        <div className={classes.galleryParts + ' ' + classes.thirdgallery}>
           <img
             srcset="https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/6347e4117a0ff7c2b97247a1_CodingQ-p-500.png 500w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/6347e4117a0ff7c2b97247a1_CodingQ-p-800.png 800w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/6347e4117a0ff7c2b97247a1_CodingQ-p-1080.png 1080w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/6347e4117a0ff7c2b97247a1_CodingQ.png 1090w"
-            sizes="(max-width: 479px) 88vw, (max-width: 991px) 43vw, (max-width: 1439px) 29vw, 286.66876220703125px"
             src="https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/6347e4117a0ff7c2b97247a1_CodingQ.png"
             loading="lazy"
             alt=""
@@ -60,7 +57,9 @@ const HomeP4 = () => {
           </p>
         </div>
       </div>
-      <p className={classes.learnMore}>Learn More</p>
+      <a href="/featurepage" className={classes.learnMore}>
+        Learn More
+      </a>
     </div>
   );
 };

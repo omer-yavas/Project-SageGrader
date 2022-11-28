@@ -16,3 +16,9 @@
   gap: 4rem;
   align-items: center;
 }
+
+@media (max-width: 975px) {
+  .p2box {
+    flex-direction: column;
+  }
+}

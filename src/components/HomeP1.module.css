@@ -1,13 +1,10 @@
-.section {
+.container {
   position: relative;
-  padding: 80px 30px;
+  padding: 5em 3em;
+
   border-bottom: 1px solid #e4ebf3;
   background-color: #ace0f5;
-}
 
-.container {
-  width: 100%;
-  max-width: 940px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -51,10 +48,17 @@
   text-decoration: none;
 }
 
-.imagebox {
-  display: flex;
-  justify-content: flex-start;
-  max-width: 46%;
-  flex-direction: column;
-  align-items: flex-start;
+.imagestyle {
+  max-width: 450px;
+  height: auto;
+}
+
+@media (max-width: 975px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  .imagestyle {
+    max-width: 300px;
+    height: auto;
+  }
 }

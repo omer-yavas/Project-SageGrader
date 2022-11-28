@@ -78,11 +78,10 @@ const HomeP6 = () => {
           </em>
         </p>
       </div>
-      <div className={classes.image}>
-        <img
+      <div className={classes.imagebox}>
+        <img className={classes.image}
           src="https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/635e56b6bc9d9c847be78be2_InteractiveFeedback-Final.png"
           loading="lazy"
-          sizes="(max-width: 767px) 94vw, (max-width: 991px) 92vw, 750px"
           srcset="https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/635e56b6bc9d9c847be78be2_InteractiveFeedback-Final-p-500.png 500w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/635e56b6bc9d9c847be78be2_InteractiveFeedback-Final-p-800.png 800w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/635e56b6bc9d9c847be78be2_InteractiveFeedback-Final-p-1080.png 1080w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/635e56b6bc9d9c847be78be2_InteractiveFeedback-Final-p-1600.png 1600w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/635e56b6bc9d9c847be78be2_InteractiveFeedback-Final-p-2000.png 2000w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/635e56b6bc9d9c847be78be2_InteractiveFeedback-Final.png 2319w"
           alt=""
         />

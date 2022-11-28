@@ -5,3 +5,9 @@
   gap: 5rem;
   padding: 6% 9%;
 }
+
+@media (max-width: 900px) {
+  .p5box {
+    flex-direction: column;
+  }
+}

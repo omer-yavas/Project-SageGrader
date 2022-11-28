@@ -2,10 +2,16 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 20px;
   padding-left: 45px;
   padding-right: 45px;
 }
-.navbarBox nav {
+
+.navbarLogo {
+  width: 18vw;
+  height: auto;
+}
+.navMenu {
   display: flex;
   gap: 25px;
 }
@@ -20,6 +26,10 @@
   color: #95bcf0;
   padding-bottom: 0.25rem;
   border-bottom: 4px solid #95bcf0;
+}
+
+.menuIcon {
+  display: none;
 }
 
 .navButton {
@@ -37,3 +47,24 @@
   text-decoration: none;
   cursor: pointer;
 }
+
+@media (max-width: 975px) {
+  .navbarBox {
+    justify-content: space-between;
+  }
+  .navbarLogo {
+    width: 30vw;
+    height: auto;
+  }
+  .navMenu {
+    display: none;
+  }
+  .navButton {
+    display: none;
+  }
+  .menuIcon {
+    display: block;
+    height: 3.8rem;
+    width: 3.8rem;
+  }
+} ;
