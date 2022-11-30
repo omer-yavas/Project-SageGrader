@@ -2,7 +2,7 @@ import { Route, Switch, Redirect } from 'react-router-dom';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import AboutUs from './pages/AboutUs';
-import ContactUs from './pages/ContactUs';
+import ContactUs from './pages/ContactUs.tsx';
 import Features from './pages/Features';
 import Home from './pages/Home';
 import LandingPage from './pages/LandingPage';

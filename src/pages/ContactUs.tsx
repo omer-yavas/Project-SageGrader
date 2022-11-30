@@ -1,6 +1,7 @@
-import classes from './contactus.module.css';
+import classes from './Contactus.module.css';
+import React from 'react';
 
-const ContactUs = () => {
+const ContactUs: React.FC = () => {
   return (
     <div className={classes.contactbox}>
       <h2>Get in touch with us</h2>
