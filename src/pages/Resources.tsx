@@ -1,5 +1,5 @@
 import classes from './Resources.module.css';
-
+import React from 'react';
 const Resources = () => {
   return (
     <div className={classes.resourcebox}>

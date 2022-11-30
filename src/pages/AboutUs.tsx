@@ -1,6 +1,6 @@
 import classes from './Aboutus.module.css';
-
-const AboutUs = () => {
+import React from 'react';
+const AboutUs: React.FC = () => {
   return (
     <div className={classes.aboutusbox}>
       <div className={classes.upperpart}>
@@ -27,23 +27,19 @@ const AboutUs = () => {
           <img
             src="https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63567bc626328906466c4100_Founder.png"
             loading="lazy"
-            srcset="https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63567bc626328906466c4100_Founder-p-500.png 500w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63567bc626328906466c4100_Founder-p-800.png 800w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63567bc626328906466c4100_Founder-p-1080.png 1080w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63567bc626328906466c4100_Founder.png 1196w"
+            srcSet="https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63567bc626328906466c4100_Founder-p-500.png 500w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63567bc626328906466c4100_Founder-p-800.png 800w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63567bc626328906466c4100_Founder-p-1080.png 1080w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63567bc626328906466c4100_Founder.png 1196w"
             sizes="(max-width: 991px) 190px, 270px"
             alt=""
-            class="team-member-image-2"
           />
           <div className={classes.personandtitle}>Dr. David Akman</div>
           <div className={classes.personandtitle}>Co-founder</div>
           <div>
-            <a
-              href="https://www.linkedin.com/in/dr-david-akman/"
-              class="navbar-brand-2 w-nav-brand"
-            >
+            <a href="https://www.linkedin.com/in/dr-david-akman/">
               <img
                 src="https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63567be7ee9bd3eb8253fba4_LinkedIn.png"
                 loading="lazy"
                 width="60"
-                srcset="https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63567be7ee9bd3eb8253fba4_LinkedIn-p-500.png 500w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63567be7ee9bd3eb8253fba4_LinkedIn.png 605w"
+                srcSet="https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63567be7ee9bd3eb8253fba4_LinkedIn-p-500.png 500w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63567be7ee9bd3eb8253fba4_LinkedIn.png 605w"
                 sizes="60px"
                 alt=""
               />
@@ -80,23 +76,19 @@ const AboutUs = () => {
           <img
             src="https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63567bc626328906466c4100_Founder.png"
             loading="lazy"
-            srcset="https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63567bc626328906466c4100_Founder-p-500.png 500w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63567bc626328906466c4100_Founder-p-800.png 800w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63567bc626328906466c4100_Founder-p-1080.png 1080w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63567bc626328906466c4100_Founder.png 1196w"
+            srcSet="https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63567bc626328906466c4100_Founder-p-500.png 500w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63567bc626328906466c4100_Founder-p-800.png 800w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63567bc626328906466c4100_Founder-p-1080.png 1080w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63567bc626328906466c4100_Founder.png 1196w"
             sizes="(max-width: 991px) 190px, 270px"
             alt=""
-            class="team-member-image-2"
           />
           <div className={classes.personandtitle}>Simon Pamuk</div>
           <div className={classes.personandtitle}>Co-founder</div>
           <div>
-            <a
-              href="https://www.linkedin.com/in/simon-pamuk"
-              class="navbar-brand-2 w-nav-brand"
-            >
+            <a href="https://www.linkedin.com/in/simon-pamuk">
               <img
                 src="https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63567be7ee9bd3eb8253fba4_LinkedIn.png"
                 loading="lazy"
                 width="60"
-                srcset="https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63567be7ee9bd3eb8253fba4_LinkedIn-p-500.png 500w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63567be7ee9bd3eb8253fba4_LinkedIn.png 605w"
+                srcSet="https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63567be7ee9bd3eb8253fba4_LinkedIn-p-500.png 500w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63567be7ee9bd3eb8253fba4_LinkedIn.png 605w"
                 sizes="60px"
                 alt=""
               />

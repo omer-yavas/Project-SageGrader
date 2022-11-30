@@ -1,5 +1,6 @@
 import classes from './Features.module.css';
-const Features = () => {
+import React from 'react';
+const Features: React.FC = () => {
   return (
     <div className={classes.featuresbox}>
       <h1>SageGrader Features</h1>

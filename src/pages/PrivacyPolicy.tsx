@@ -1,4 +1,5 @@
 import classes from './PrivacyPolicy.module.css';
+import React from 'react';
 
 const PrivacyPolicy = () => {
   return (
