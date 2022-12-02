@@ -1,5 +1,5 @@
 import classes from './HomeP3.module.css';
-
+import React from 'react';
 const HomeP3 = () => {
   return (
     <div className={classes.p3box}>

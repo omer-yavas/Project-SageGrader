@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './HomeP1.module.css';
-import { Redirect, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 const HomeP1 = () => {
   return (
     <div className={classes.container}>

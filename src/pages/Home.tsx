@@ -7,6 +7,7 @@ import HomeP6 from '../components/HomeP6';
 import HomeP7 from '../components/HomeP7';
 import HomeP8 from '../components/HomeP8';
 import classes from './Home.module.css';
+import React from 'react';
 
 const Home = () => {
   return (

@@ -1,5 +1,5 @@
 import classes from './HomeP7.module.css';
-
+import React from 'react';
 const HomeP7 = () => {
   return (
     <div className={classes.p7box}>

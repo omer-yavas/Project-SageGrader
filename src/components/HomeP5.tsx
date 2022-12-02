@@ -1,5 +1,5 @@
 import classes from './HomeP5.module.css';
-
+import React from 'react';
 const HomeP5 = () => {
   return (
     <div className={classes.p5box}>
@@ -8,10 +8,9 @@ const HomeP5 = () => {
           src="https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63417dadaf18ec8d2e921900_InsightReport.png"
           loading="lazy"
           width="328"
-          srcset="https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63417dadaf18ec8d2e921900_InsightReport-p-500.png 500w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63417dadaf18ec8d2e921900_InsightReport-p-800.png 800w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63417dadaf18ec8d2e921900_InsightReport.png 1045w"
+          srcSet="https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63417dadaf18ec8d2e921900_InsightReport-p-500.png 500w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63417dadaf18ec8d2e921900_InsightReport-p-800.png 800w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63417dadaf18ec8d2e921900_InsightReport.png 1045w"
           sizes="(max-width: 479px) 88vw, 328px"
           alt=""
-          class="shadow-two"
         />
       </div>
       <div>

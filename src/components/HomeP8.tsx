@@ -1,5 +1,5 @@
 import classes from './HomeP8.module.css';
-
+import React from 'react';
 const HomeP8 = () => {
   return (
     <div className={classes.p8box}>

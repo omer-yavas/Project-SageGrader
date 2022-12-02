@@ -1,6 +1,7 @@
+import React from 'react';
 import classes from './HomeP2.module.css';
 
-const HomeP2 = () => {
+const HomeP2: React.FC = () => {
   return (
     <div className={classes.p2box}>
       <div className={classes.p2left}>
@@ -38,7 +39,7 @@ const HomeP2 = () => {
             loading="lazy"
             width="82"
             height="82"
-            srcset="https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63417056e3265c3ad135e1e9_ConnectCanvas-Final-p-500.png 500w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63417056e3265c3ad135e1e9_ConnectCanvas-Final-p-800.png 800w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63417056e3265c3ad135e1e9_ConnectCanvas-Final.png 1008w"
+            srcSet="https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63417056e3265c3ad135e1e9_ConnectCanvas-Final-p-500.png 500w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63417056e3265c3ad135e1e9_ConnectCanvas-Final-p-800.png 800w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/63417056e3265c3ad135e1e9_ConnectCanvas-Final.png 1008w"
             sizes="82px"
             alt=""
           />
@@ -55,7 +56,7 @@ const HomeP2 = () => {
             loading="lazy"
             width="80"
             height="80"
-            srcset="https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/634171dcebf97b210b1013cd_AutoGrader-Final-p-500.png 500w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/634171dcebf97b210b1013cd_AutoGrader-Final-p-800.png 800w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/634171dcebf97b210b1013cd_AutoGrader-Final.png 921w"
+            srcSet="https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/634171dcebf97b210b1013cd_AutoGrader-Final-p-500.png 500w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/634171dcebf97b210b1013cd_AutoGrader-Final-p-800.png 800w, https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/634171dcebf97b210b1013cd_AutoGrader-Final.png 921w"
             sizes="80px"
             alt=""
           />
