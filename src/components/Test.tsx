@@ -1,11 +1,9 @@
-import React from 'react';
+import classes from './Test.module.css';
 import { NavLink, Link } from 'react-router-dom';
-import classes from './Navbar.module.css';
-import { IonIcon } from '@ionic/react';
-import { menuOutline } from 'ionicons/icons';
 import { useState } from 'react';
+import { IoMenu } from 'react-icons/io5';
 
-const Navbar = () => {
+const Test = () => {
   const [showIconicMenu, setShowIconicMenu] = useState(false);
 
   const clickIconHandler = () => {
@@ -18,15 +16,17 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className={classes.navbarkutu}>
+      <div className={classes.testbar}>
         <div>
-          <a href="/">
-            <img
-              className={classes.navbarLogo}
-              srcSet="https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/6340f11a6a18b6834bb49612_Logo9-p-500.png 500w"
-              alt="Company logo"
-            />
-          </a>
+          <div>
+            <a href="/">
+              <img
+                className={classes.navbarLogo}
+                srcSet="https://uploads-ssl.webflow.com/63207aa6a0b066c193c93a03/6340f11a6a18b6834bb49612_Logo9-p-500.png 500w"
+                alt="Company logo"
+              />
+            </a>
+          </div>
         </div>
         <div>
           <nav className={classes.navMenu}>
@@ -52,14 +52,13 @@ const Navbar = () => {
             </div>
           </nav>
         </div>
-
         <div>
           <Link className={classes.navButton} to="/landingpage">
             USER LOGIN
           </Link>
-        </div>
-        <div onClick={clickIconHandler}>
-          <IonIcon className={classes.menuIcon} icon={menuOutline} />
+          <div onClick={clickIconHandler}>
+            <IoMenu className={classes.menuIcon} />
+          </div>
         </div>
       </div>
       <div>
@@ -97,4 +96,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Test;

@@ -1,6 +1,5 @@
 import { Route, Switch, Redirect } from 'react-router-dom';
 import Footer from './components/Footer';
-import Navbar from './components/Navbar';
 import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
 import Features from './pages/Features';
@@ -8,7 +7,7 @@ import Home from './pages/Home';
 import LandingPage from './pages/LandingPage';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import Resources from './pages/Resources';
-import React from 'react';
+import Test from './components/Test';
 
 function App() {
   return (
@@ -18,30 +17,30 @@ function App() {
           <Redirect to="/home" />
         </Route>
         <Route path="/home">
-          <Navbar />
+          <Test />
           <Home />
           <Footer />
         </Route>
         <Route path="/featurepage">
-          <Navbar />
+          <Test />
           <Features />
           <Footer />
         </Route>
         <Route path="/aboutus">
-          <Navbar /> <AboutUs />
+          <Test /> <AboutUs />
           <Footer />
         </Route>
         <Route path="/contact">
-          <Navbar /> <ContactUs />
+          <Test /> <ContactUs />
           <Footer />
         </Route>
         <Route path="/privacy">
-          <Navbar />
+          <Test />
           <PrivacyPolicy />
           <Footer />
         </Route>
         <Route path="/resources">
-          <Navbar />
+          <Test />
           <Resources />
           <Footer />
         </Route>
