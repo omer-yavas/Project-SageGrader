@@ -1,10 +1,11 @@
-.navbarBox {
-  display: flex;
+.navbarkutu {
+  display: flex !important;
   align-items: center;
   justify-content: space-between;
   padding-top: 20px;
   padding-left: 45px;
   padding-right: 45px;
+  padding-bottom: 10px;
 }
 
 .navbarLogo {
@@ -16,7 +17,7 @@
   gap: 25px;
 }
 
-.navbarBox a {
+.navbarkutu a {
   text-decoration: none;
 }
 
@@ -52,7 +53,7 @@
 }
 
 @media (max-width: 975px) {
-  .navbarBox {
+  .navbarkutu {
     justify-content: space-between;
   }
   .navbarLogo {
@@ -101,4 +102,4 @@
     text-decoration: none;
     cursor: pointer;
   }
-} ;
+}
