@@ -1,4 +1,4 @@
-import classes from './Contactus.module.css';
+import classes from './Contactus1.module.css';
 import React from 'react';
 
 const ContactUs: React.FC = () => {
